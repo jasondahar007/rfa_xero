@@ -1,0 +1,36 @@
+{
+  "rules": 
+  {
+    ".read": true,
+    ".write": true,
+  "leads" : 
+  {
+    ".indexOn" : ["create_date","userid","userid_company","leads_id"]
+  },
+  "schedules" : 
+  {
+    ".indexOn" : ["userid"]
+  },
+  "users" : 
+  {
+    ".indexOn" : ["email","user_id"]
+  },
+  "schedule_list" : 
+  {
+    ".indexOn" : ["status"]
+  },
+  "tempuser_table" :
+  {
+    ".indexOn" : ["hubspotid"]
+  },
+  "B2B_scheduler_table" :
+  {
+    ".indexOn" : ["hubspotid","create_date","status"]
+  },
+    "B2B_user_table" :
+  {
+    ".indexOn" : ["hubspotid"]
+  }
+     
+  }
+}
