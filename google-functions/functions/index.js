@@ -127,11 +127,12 @@ var convertapi = require('convertapi')('secret_V23Qankup6YAlAhP');
 
 // 04/03/2025 JD XERO_billing_subscriptions_webhook Update Sub pricing 
 // 04/03/2025 JD XERO_oauth email_send_rfa - emails support
-// 06/04/2025 JD Setup GIT
+// 06/04/2025 JD 01 Setup GIT
+// 06/04/2025 JD 02 Updated by LT
 
 /*****************************************************************************************************************************************************************/
 
-//test();
+test();
 async function test() {
     console.log("📘📘📘: test :📘📘📘");
     return;
